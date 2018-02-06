@@ -1,34 +1,34 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import Head from "next/head";
-import styled from "styled-components";
+import ProgressDyn from "./Progress";
 
-const Progress = styled.div`
-  position: fixed;
-  height: 50px;
+// const Progress = styled.div`
+//   position: fixed;
+//   height: 50px;
 
-  width: 25%;
+//   width: 25%;
 
-  background-color: red;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-`;
+//   background-color: red;
+//   bottom: 0px;
+//   left: 0px;
+//   right: 0px;
+//   margin-bottom: 0px;
+// `;
 
-const ProgressDyn = styled.div.attrs({
-  style: props => ({
-    width: props.progress
-  })
-})`
-  position: fixed;
-  height: 10px;
-  background-color: red;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
-`;
+// const ProgressDyn = styled.div.attrs({
+//   style: props => ({
+//     width: props.progress
+//   })
+// })`
+//   position: fixed;
+//   height: 10px;
+//   background-color: red;
+//   bottom: 0px;
+//   left: 0px;
+//   right: 0px;
+//   margin-bottom: 0px;
+// `;
 
 class Index extends Component {
   constructor(props) {
